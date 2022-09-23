@@ -7,7 +7,7 @@ spring:
     name: demo
 
   datasource:
-    url: jdbc:mysql://localhost:3306/user?serverTimezone=UTC&useSSL=false
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=UTC&useSSL=false
     username: root
     password: '0000'
     driver-class-name: com.mysql.cj.jdbc.Driver
