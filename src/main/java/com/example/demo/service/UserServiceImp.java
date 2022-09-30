@@ -9,7 +9,6 @@ import java.util.List;
 
 @Service
 public class UserServiceImp implements UserService {
-
     @Resource
     UserMapper userMapper;
 
@@ -37,4 +36,5 @@ public class UserServiceImp implements UserService {
     public void delete(Integer uid) {
         userMapper.deleteById(uid);
     }
+
 }
